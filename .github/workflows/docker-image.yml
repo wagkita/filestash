@@ -33,7 +33,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           build-args: |
             GIT_REPO=https://github.com/wagkita/filestash
-            GIT_BRANCH=maaster
+            GIT_BRANCH=master
           tags: |
             genaut/filestash:latest
             genaut/filestash:custom
